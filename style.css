@@ -1,0 +1,46 @@
+body {
+    background-color: #efd5ba;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#qrContainer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#qrContainer img {
+    max-width: 200px;
+}
